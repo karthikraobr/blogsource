@@ -1,0 +1,25 @@
+baseURL = "https://karthikraobr.github.io"
+languageCode = "en-us"
+title = "Gibberish"
+theme = "beautifulhugo"
+author = "Kaarthik"
+copyright = "© Copyright 2017"
+[Params]
+  subtitle = "Kaarthik's Blog"
+  logo = "img/profile.jpg"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+
+  [Author]
+  name = "Kaarthik"
+  email = "karthik.0703@gmail.com"
+  facebook = "karthik.0703"
+  googleplus = "+KarthikRao7"
+  github = "karthikraobr"
+  twitter = "karthikraobr"
+  linkedin = "karthikraobr"
+  stackoverflow = "/users/1309509/geekboy"
+  instagram = "karthikraobr"
