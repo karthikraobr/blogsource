@@ -23,3 +23,13 @@ copyright = "© Copyright 2017"
   linkedin = "karthikraobr"
   stackoverflow = "/users/1309509/geekboy"
   instagram = "karthikraobr"
+
+  [[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "pages/about/"
+    weight = 2
