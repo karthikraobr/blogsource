@@ -32,4 +32,9 @@ copyright = "© Copyright 2017"
 [[menu.main]]
     name = "About"
     url = "pages/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Resume"
+    url = "pages/resume"
     weight = 2
