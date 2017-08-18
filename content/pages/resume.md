@@ -4,8 +4,8 @@ tags: []
 ---
 
 <div class="pdf-container ">
-<object data="Kaarthik.pdf"  type="application/pdf" style="width: 100%; height: 100%; display:block;" >
-  <p>It appears you don't have a PDF plugin. <a href="Kaarthik.pdf">click here to
+<object data="/Kaarthik.pdf"  type="application/pdf" style="width: 100%; height: 100%; display:block;" >
+  <p>It appears that you don't have a PDF plugin. <a href="/Kaarthik.pdf">click here to
   download the PDF file.</a></p>
 </object>
 </div>
