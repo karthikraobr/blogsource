@@ -4,6 +4,7 @@ title = "Gibberish"
 theme = "beautifulhugo"
 author = "Kaarthik"
 copyright = "© Copyright 2017"
+disqusShortname = "https-karthikraobr-github-io"
 [Params]
   subtitle = "Kaarthik's Blog"
   logo = "img/profile.jpg"
@@ -38,3 +39,8 @@ copyright = "© Copyright 2017"
     name = "Resume"
     url = "pages/resume"
     weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 4
