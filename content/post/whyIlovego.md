@@ -10,7 +10,7 @@ I was introduced to <a href="https://golang.org/" target="_blank">Go</a> by <a h
 
 ### Fast Compilation
 ---
-Most popular languages are atleast a decade old and do not take advantage of the newer hardware. But, Go on the other hand is designed to run on modern computers and takes advantages of the faster hardware. This is partly the reason Go compiles code like hot knife through butter. Another reason for the blazing fast build times is the way Go compiler performs <a href="https://en.wikipedia.org/wiki/Dependence_analysis" target="_blank">Dependency Analysis </a>. Below are a few points which I ripped from the <a href="https://golang.org/doc/faq" target="_blank">Go FAQs</a> page which summarizes why Go compiles code like there is no tomorrow:). If you are a Go developer and haven't gone through the FAQs, shame on you :P.
+Most popular languages are atleast a decade old and do not take advantage of the newer hardware. But, Go on the other hand is designed to run on modern computers and takes advantages of the faster hardware. This is partly the reason why Go compiles code like hot knife through butter. Another reason for the blazing fast build times is the way Go compiler performs <a href="https://en.wikipedia.org/wiki/Dependence_analysis" target="_blank">Dependency Analysis </a>. Below are a few points which I ripped from the <a href="https://golang.org/doc/faq" target="_blank">Go FAQs</a> page which summarizes why Go compiles code like there is no tomorrow:). If you are a Go developer and haven't gone through the FAQs, shame on you :P.
 
 > Dependency management is a big part of software development today but the “header files” of languages in the C tradition are antithetical to clean dependency analysis—and fast compilation.
 
