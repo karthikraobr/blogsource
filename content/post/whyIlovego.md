@@ -62,7 +62,7 @@ func main() {
 
 ### OOP
 ---
-Go is not completely object oriented. It has a type system, supports encapsulation and member functions but lacks inheritance. Go favours "Composition over Inheritance". To understand more about OOP in Go please read this <a href="http://spf13.com/post/is-go-object-oriented/" target="_blank"> excellent blog post </a> by the great <a href="https://stevefrancia.com/" target="_blank">Steve Francia </a>. He goes into great detail about the advantages of the design decisions underlying Go's take on OOP.
+Go is not completely object oriented. It has a type system, supports encapsulation and member functions but lacks inheritance. Go favours <a href="https://en.wikipedia.org/wiki/Composition_over_inheritance" target="_blank">"Composition over Inheritance"</a>. To understand more about OOP in Go please read this <a href="http://spf13.com/post/is-go-object-oriented/" target="_blank"> excellent blog post </a> by the great <a href="https://stevefrancia.com/" target="_blank">Steve Francia </a>. He goes into great detail about the advantages of the design decisions underlying Go's take on OOP.
 
 ### Concurrency
 ---
