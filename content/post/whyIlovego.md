@@ -76,6 +76,14 @@ A channel is a data structure that is used to communicate between multiple gorou
 
 Heck! Go even has an built-in <a href="https://blog.golang.org/race-detector" target="_blank">race condition detector</a>.
 
+
+### defer
+---
+I love defer(s) in Go. This <a href="https://blog.golang.org/defer-panic-and-recover" target="_blank">blog post</a> explains about defer.
+
+> A defer statement defers the execution of a function until the surrounding function returns.
+
+
 ### Go tool
 ---
 The go tool is the single most useful tool for managing Go source code. It does everything from formatting your source code to fetching all the dependencies. Here is a list of few of its capabilities:
