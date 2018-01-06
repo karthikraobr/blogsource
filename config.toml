@@ -1,4 +1,4 @@
-baseURL = "https://karthikraobr.github.io"
+baseURL = "https://karthikraobr.github.io/"
 languageCode = "en-us"
 title = "Gibberish"
 theme = "beautifulhugo"
@@ -44,4 +44,9 @@ disqusShortname = "https-karthikraobr-github-io"
 [[menu.main]]
     name = "Tags"
     url = "/tags"
+    weight = 4
+
+[[menu.main]]
+    name = "Categories"
+    url = "/categories"
     weight = 4
