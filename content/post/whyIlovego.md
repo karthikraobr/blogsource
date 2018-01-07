@@ -36,7 +36,7 @@ Of all the languages I have used, Go has the cleanest and easiest syntax. Here a
 
  **Short variable declarations** - This one's my favourite. The ":=" operator is basically a short hand for variable declaration and assignment. Keep in mind that this shorthand can be used only inside functions.
 
-```go
+{{< highlight go "linenos=table">}}
 package main
 
 import "fmt"
@@ -45,13 +45,14 @@ func main() {
 	result := "best"
 	fmt.Printf("Go is the %s",result)
 }
+{{< / highlight >}}
 
-```
 **Multiple Return Values** - Go supports returning multiple values from a function. Most library functions return a result and an error. This is especially useful since Go has no built-in exceptions and exception handling mechanism. Instead Go uses the error type to indicate an abnormal state.
 
-```go
+{{< highlight go "linenos=table">}}
 package main
-import "fmt"
+
+import "fmt"                 
 
 //Returns multiple values
 func getWords() (string, string) {
@@ -64,7 +65,7 @@ func main() {
     _, c := getWords()
     fmt.Println(c)
 }
-```
+{{< / highlight >}}
 
 ### OOP
 
@@ -74,9 +75,9 @@ Go is not completely object oriented. It has a type system, supports encapsulati
 
 STOP! Before you read any further I suggest that you first watch this video by Rob Pike - <a href="https://www.youtube.com/watch?v=oV9rvDllKEg" target="_blank"> Concurrency is not Parallelism</a>. Go was designed with concurrency in mind. Go supports concurrency with Goroutines and Channels. Goroutines are lightweight threads which are managed by the runtime. Multiple goroutines are multiplexed on a single OS thread. This has multiple adavantages such as lesser memory consumption (approximately 2kb on the stack), lesser setup and teardown costs and lesser context switching costs. And spinning a goroutine is as easy as prefixing go to your function call as shown below.
 
-```go
+{{< highlight go "linenos=table">}}
 go getWords()
-``` 
+{{< / highlight >}}
 
 A channel is a data structure that is used to communicate between multiple goroutines. Traditionally threads in languages such as Java communicate with each other via Shared Memory which require you to acquire and release locks. But go follows a a different philosophy i.e. "Don't communicate by sharing memory, share memory by communicating". Goroutines communicate with each other by passing channels rather than acquiring locks to read and write from shared memory.
 
@@ -143,14 +144,14 @@ I just raved about how Go has a clean syntax, but here are a few rants :
 
 I found the Error Handling in Go to be repetitive. If a function returns a result and an error, you are expected to check if the error is nil and then continue with you regular logic. And if the called function can return mutliple types of errors, then you would have to check for the type of the error in addition to checking if it is not nil. 
 
-```go
+{{< highlight go "linenos=table">}}            
 info, err := echoReq.GetSlotValue(screenMessage)
 if err != nil {
     // Do error handling
 }else{
     // regular logic
 }
-```
+{{< / highlight >}}
 
 ### No Overloading and Optional Parameters
 
@@ -160,7 +161,7 @@ Yet again coming from C#, I miss method overloading and optional parameters whic
 
 This is just me being picky and dumb, but coming from C# I have the habbit of writing the else condition in a new line rather than in the same line as the closing brace of the if condition. This results in a syntax error which makes me sad :(. <a href="https://play.golang.org/p/1NWNCItGU7s" target="_blank">Test it yourself.</a> 
 
-```go
+{{< highlight go "linenos=table">}}
 package main
 
 import (
@@ -177,4 +178,4 @@ func main() {
 	    fmt.Println("a is not one")
 	}
 }
-```
+{{< / highlight >}}
