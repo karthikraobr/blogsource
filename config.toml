@@ -19,6 +19,7 @@ UseChroma = true
   commit = false
   rss = true
   comments = true
+  readingTime = true
 
   [Author]
   name = "Kaarthik"
@@ -39,12 +40,12 @@ UseChroma = true
 [[menu.main]]
     name = "About"
     url = "pages/about/"
-    weight = 3
+    weight = 2
 
 [[menu.main]]
     name = "Resume"
     url = "pages/resume"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     name = "Tags"
