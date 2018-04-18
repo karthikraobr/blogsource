@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Gibberish"
 theme = "beautifulhugo"
 author = "Kaarthik"
-copyright = "© Copyright 2017"
+copyright = "© Copyright 2018"
 googleAnalytics="UA-112060036-1"
 disqusShortname = "https-karthikraobr-github-io"
 
@@ -37,12 +37,12 @@ UseChroma = true
 
 [[menu.main]]
     name = "About"
-    url = "pages/about/"
+    url = "page/about/"
     weight = 2
 
 [[menu.main]]
     name = "Resume"
-    url = "pages/resume"
+    url = "page/resume"
     weight = 3
 
 [[menu.main]]
