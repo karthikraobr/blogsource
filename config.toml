@@ -6,8 +6,6 @@ author = "Kaarthik"
 copyright = "© Copyright 2017"
 googleAnalytics="UA-112060036-1"
 disqusShortname = "https-karthikraobr-github-io"
-pygmentsCodeFences = true
-pygmentsUseClasses = true
 
 
 [Params]
