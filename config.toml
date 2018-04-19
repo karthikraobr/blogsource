@@ -42,7 +42,7 @@ UseChroma = true
     weight = 2
 
 [[menu.main]]
-    name = "Resume"
+    name = "Résumé"
     url = "page/resume"
     weight = 3
 
