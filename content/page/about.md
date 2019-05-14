@@ -11,5 +11,5 @@ I got my first computer when I was in my seventh grade and ever since I have bee
 I am a foodie at heart. I don't eat to live, I live to eat. I love Chicken Biryani and my quest for the perfect biryani is never-ending. I also am a petrolhead and religiously follow The Grand Tour and Top Gear. I enjoy travelling and love exploring new places.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/FEBGKf5yWVI?autoplay=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="//www.youtube.com/embed/FEBGKf5yWVI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
