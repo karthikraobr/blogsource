@@ -9,3 +9,7 @@ Hey there! I am Kaarthik. I was born in the garden city of India - Bangalore and
 I got my first computer when I was in my seventh grade and ever since I have been hooked on to it. Technology fascinates and boggles me. I still cannot fathom how google can scour the entire internet and return personalized results to you, all in a matter of milliseconds.  I first started writing code as a part of my day job in Bangalore and since then I have been intrigued by programming. According to me "Code runs the world". Everyone from large governments to your local grocery store in some form or the other have been touched by technology and in turn by "the code" which powers it. As supermodel [Karlie Kloss](https://en.wikipedia.org/wiki/Karlie_Kloss) puts it "Coding is a superpower". Although I have been writing code for many years now, I still consider my thoughts and views on programming to be underdeveloped. [Go](https://golang.org/) is my current muse and I am enjoying her thoroughly :). 
 
 I am a foodie at heart. I don't eat to live, I live to eat. I love Chicken Biryani and my quest for the perfect biryani is never-ending. I also am a petrolhead and religiously follow The Grand Tour and Top Gear. I enjoy travelling and love exploring new places.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/FEBGKf5yWVI?autoplay=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
