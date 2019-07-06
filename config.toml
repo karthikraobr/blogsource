@@ -1,4 +1,4 @@
-baseURL = "https://karthikraobr.github.io/"
+baseURL = "https://kaarthik.dev/"
 languageCode = "en-us"
 title = "Gibberish"
 theme = "beautifulhugo"
@@ -19,6 +19,9 @@ UseChroma = true
   rss = true
   comments = true
   readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
 
   [Author]
   name = "Kaarthik"
