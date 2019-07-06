@@ -1,4 +1,4 @@
-baseURL = "https://kaarthik.dev/"
+baseURL = "https://kaarthik.dev"
 languageCode = "en-us"
 title = "Gibberish"
 theme = "beautifulhugo"
@@ -26,12 +26,12 @@ UseChroma = true
   [Author]
   name = "Kaarthik"
   email = "karthik.0703@gmail.com"
-  facebook = "karthik.0703"
   github = "karthikraobr"
   twitter = "karthikraobr"
   linkedin = "karthikraobr"
   stackoverflow = "/users/1309509/geekboy"
   instagram = "karthikraobr"
+  facebook = "karthik.0703"
 
   [[menu.main]]
     name = "Blog"
