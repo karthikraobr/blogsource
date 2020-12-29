@@ -56,5 +56,5 @@ showToc = false # Enable or disable ToC for all post
     weight = 3
   [[menu.link]]
     name = "Email"
-    url = "mailto:karthik.0703@gmail.com"
+    url = "mailto:hi@kaarthik.dev"
     weight = 4
