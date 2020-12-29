@@ -1,17 +1,19 @@
 baseURL = "https://kaarthik.dev"
 languageCode = "en-us"
 title = "Gibberish"
-theme = "beautifulhugo"
+theme = "fuji"
 author = "Kaarthik"
 copyright = "© Copyright 2018"
 googleAnalytics="UA-112060036-1"
 disqusShortname = "https-karthikraobr-github-io"
+showLicense = false # Enable or disable license for all post
+showToc = false # Enable or disable ToC for all post
 
 
 
 [Params]
-UseChroma = true
-  subtitle = "Kaarthik's Blog"
+  UseChroma = true
+  subtitle = "Kaarthik's musings"
   logo = "img/profile.jpg"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
@@ -23,37 +25,36 @@ UseChroma = true
   useHLJS = true
   socialShare = true
 
-  [Author]
-  name = "Kaarthik"
-  email = "karthik.0703@gmail.com"
-  github = "karthikraobr"
-  twitter = "karthikraobr"
-  linkedin = "karthikraobr"
-  stackoverflow = "/users/1309509/geekboy"
-  instagram = "karthikraobr"
-  facebook = "karthik.0703"
+[menu]
+    [[menu.nav]]
+        name = "Home"
+        url = "/"
+        weight = 1
 
-  [[menu.main]]
-    name = "Blog"
-    url = ""
+    [[menu.nav]]
+        name = "About"
+        url = "/page/about"
+        weight = 2
+
+    [[menu.nav]]
+        name = "Résumé"
+        url = "/page/resume"
+        weight = 3
+
+
+  [[menu.link]]
+    name = "GitHub"
+    url = "https://github.com/karthikraobr"
     weight = 1
-
-[[menu.main]]
-    name = "About"
-    url = "page/about/"
+  [[menu.link]]
+    name = "Twitter"
+    url = "https://twitter.com/karthikraobr"
     weight = 2
-
-[[menu.main]]
-    name = "Résumé"
-    url = "page/resume"
+  [[menu.link]]
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/karthikraobr/"
     weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 4
-
-[[menu.main]]
-    name = "Categories"
-    url = "/categories"
+  [[menu.link]]
+    name = "Email"
+    url = "mailto:karthik.0703@gmail.com"
     weight = 4

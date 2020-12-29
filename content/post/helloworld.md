@@ -9,7 +9,6 @@ linktitle: Hello World
 next: /tutorials/github-pages-blog
 prev: /tutorials/automated-deployments-->
 title: Hello World
-weight: 10
 tags: ["firstpost"]
 categories : ["blog"]
 ---

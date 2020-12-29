@@ -6,3 +6,6 @@
 	path = themes/beautifulhugo
 	url = https://github.com/halogenica/beautifulhugo.git
 	branch = master
+[submodule "themes/fuji"]
+	path = themes/fuji
+	url = https://github.com/amzrk2/hugo-theme-fuji.git

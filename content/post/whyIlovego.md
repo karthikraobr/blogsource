@@ -3,7 +3,6 @@ author: "Kaarthik"
 date: 2017-12-26
 linktitle: Why I love Go
 title: My relationship with Go
-weight: 10
 tags: ["go", "golang","technology"]
 categories : ["technology"]
 ---

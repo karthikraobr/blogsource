@@ -3,7 +3,6 @@ author: "Kaarthik"
 date: 2017-08-21
 linktitle: The art of procrastination
 title: The art of procrastination
-weight: 10
 tags: ["life", "procrastination"]
 categories : ["blog"]
 ---
