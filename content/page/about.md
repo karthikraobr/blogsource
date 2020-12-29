@@ -3,7 +3,7 @@ title: About me
 date: 2018-12-29
 tags: ["aboutme"]
 <!--subtitle: Who am I?-->
-comments: false
+showComments: false
 ---
 
 Hey there! I am Kaarthik. I was born in the garden city of India - Bangalore and have lived a major part of my life there. ~~Currently I live in Paderborn, a small city in Germany where I am pursuing my masters in computer science.I also work part-time for Diebold Nixdorf in their Research & Innovation department.~~ Currently I live in Berlin and work at [travel audience](https://www.travelaudience.com) as a Go developer.

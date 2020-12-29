@@ -3,9 +3,8 @@ title: Résumé
 subtitle: ""
 date: 2020-12-29
 tags: [resume]
-comments: false
+showComments: false
 ---
-{{< rawhtml >}}
 <div class="pdf-container ">
 <object data="/Kaarthik.pdf"  type="application/pdf" style="width: 100%; height: 100%; display:block;" >
   <p>It appears that you don't have a PDF plugin. <a href="/Kaarthik.pdf">Click here to
@@ -29,4 +28,3 @@ comments: false
     top: 0;
     left: 0;
 }</style>
-{{< /rawhtml >}}
